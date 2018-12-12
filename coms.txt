@@ -1,0 +1,21 @@
+
+//USEFUL COMMANDS
+
+
+Test Network Connectivity Example:
+$ ping www.apple.com
+
+Ouput updated file to console Example:
+$ tail -f file.txt
+
+Run HTML file to server inside directory Example:
+$ python -m SimpleHTTPServer 8080
+
+Copying files from directory-directory Example:
+$ cp ~/Desktop/Myfile.txt ~/Documents (move from Desktop into Documents)
+
+Moving files between Directories Example:
+mv ~/Desktop/Myfile.txt ~/Documents/Somefolder
+
+(Difference between cp and mv, copying from one file to another won't delete original, mv deletes original)
+* is the wildcard, can move all types of particular file, eg. .txt,.jpg etc...
