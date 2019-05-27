@@ -1,0 +1,14 @@
+Sync Git/Github Best Approach
+
+1. create a new directory for source code (mkdir && cd into folder)
+2. git init (local git repo)
+3. git remote add origin ==> url ... (remote repo)
+4. git remote -v (check remote (fetch & push repos)
+5. git pull origin master (pull master branch down from remote-local)
+6. git status (checked untracked files)
+7. git log (check any created,commited files on remote)
+8. create new/delete/update local files eg. touch file.txt, index.html
+9. git add . (. all or specific files listed to be staged)
+10. git commit -m 'message'
+11. git push -u origin master
+
